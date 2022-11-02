@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_axe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-1733935390,881606771,-2063743100,-200310398],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": 0.3
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "一応修復したオノ",
+                                    "color": "gold",
+                                    "bold": true
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "弱いけど何度も使える",
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

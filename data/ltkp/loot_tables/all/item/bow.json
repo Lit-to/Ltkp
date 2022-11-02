@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Unbreakable:0b,Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+						},
+						{
+							"function": "set_damage",
+							"damage": 0.001
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "クモの糸で作った弓",
+									"color": "gold",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "つよいけどもろい",
+									"color": "white"
+								}
+							]
+						}
+					]
+				}
+            ]
+        }
+    ]
+}

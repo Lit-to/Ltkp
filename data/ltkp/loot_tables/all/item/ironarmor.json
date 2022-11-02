@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:iron_horse_armor",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"text": "加速バッジ｢ぬのはぁ｣",
+									"color": "dark_green",
+									"bold": true
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "投げて使用",
+									"color": "white"
+								},
+								{
+									"text": "移動速度上昇",
+									"color": "yellow",
+									"bold": true
+								}
+							]
+						}
+					]
+				}
+            ]
+        }
+    ]
+}
