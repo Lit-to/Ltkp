@@ -1,6 +1,8 @@
 {
     "values": [
         "minecraft:golden_sword",
-        "golden_axe"
+        "golden_axe",
+        "bow",
+        "spectral_arrow"
     ]
 }

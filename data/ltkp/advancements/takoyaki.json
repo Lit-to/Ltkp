@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:magma_cream"
+                        ],
+                        "nbt": "{run:1}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ltkp:i_c"
+    }
+}

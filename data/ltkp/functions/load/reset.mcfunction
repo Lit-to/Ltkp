@@ -3,10 +3,18 @@
 #declare storage ltkp:
 scoreboard objectives remove time
 scoreboard objectives add time dummy
+scoreboard players set 300 time 300
 scoreboard objectives remove live 
 scoreboard objectives add live minecraft.custom:minecraft.play_time
 scoreboard objectives remove sneak
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives remove takoyaki
+scoreboard objectives add takoyaki dummy
+scoreboard players set 5 takoyaki 5
+scoreboard objectives remove rank
+scoreboard objectives add rank dummy
+
+
 
 team remove a 
 team add a
@@ -25,4 +33,8 @@ data modify storage ltkp: time set value {note:"valueに1人当たりの時間in
 
 #全部を飲み込むチャンク読み込みを入れる
 
+#gamerule 
+gamerule doImmediateRespawn true
+forceload add -9 -2 ~ ~
 
+execute as @e[type=armor_stand,tag=chest] at @s run data modify block ~ ~ ~ Items set value []
