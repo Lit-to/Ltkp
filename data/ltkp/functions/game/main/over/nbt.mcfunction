@@ -1,4 +1,4 @@
-#> ltkp:game/overtime/nbt
+#> ltkp:game/main/over/nbt
 
 tp @s ~ ~ ~ 
 data modify entity @s Age set value 0

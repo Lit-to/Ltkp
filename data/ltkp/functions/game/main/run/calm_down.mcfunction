@@ -1,4 +1,4 @@
-#> ltkp:game/run/calm_down
+#> ltkp:game/main/run/calm_down
 team leave @s 
 #毎tick動かすのはばかばかしい
 tellraw @a [{"selector":"@s"},{"text": "の暴走が止められた。","color": "red"}]

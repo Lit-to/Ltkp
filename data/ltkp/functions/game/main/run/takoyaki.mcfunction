@@ -1,4 +1,4 @@
-#> ltkp:game/run/takoyaki
+#> ltkp:game/main/run/takoyaki
 
 
 
