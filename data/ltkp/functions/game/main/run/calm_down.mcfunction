@@ -4,3 +4,5 @@ team leave @s
 tellraw @a [{"selector":"@s"},{"text": "の暴走が止められた。","color": "red"}]
 gamemode spectator @s
 function ltkp:game/item/energy
+attribute @s generic.max_health base set 20
+
