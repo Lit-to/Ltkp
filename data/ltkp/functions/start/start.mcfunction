@@ -11,6 +11,7 @@ execute as @a[gamemode=!spectator] run tp @s @e[type=armor_stand,tag=spawn,sort=
 team join a @a[gamemode=!spectator]
 scoreboard players set pre time 1200
 bossbar set ltkp: max 1200
+bossbar set ltkp: players @a
 function ltkp:game/bar
 function ltkp:game/item/energy
 #per timeは時間の最大を定義してる
