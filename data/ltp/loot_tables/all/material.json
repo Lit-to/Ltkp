@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ],
+                    "name": "ltp:all/material/cacao"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ],
+                    "name": "ltp:all/material/greendye"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ],
+                    "name": "ltp:all/material/purpledye"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ],
+                    "name": "ltp:all/material/pufferfish"
+                }
+            ]
+        }
+    ]
+}

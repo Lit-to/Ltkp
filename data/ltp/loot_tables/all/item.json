@@ -1,0 +1,75 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ],
+                    "name": "ltp:all/item/sword"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ],
+                    "name": "ltp:all/item/axe"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ],
+                    "name": "ltp:all/item/beef"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ],
+                    "name": "ltp:all/item/bow"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ],
+                    "name": "ltp:all/item/arrow"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ],
+                    "name": "ltp:all/item/goldenarmor"
+                }
+            ]
+        }
+    ]
+}
