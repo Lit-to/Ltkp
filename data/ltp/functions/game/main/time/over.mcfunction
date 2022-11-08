@@ -3,5 +3,5 @@
 # 現在1位チェック
 function ltp:game/main/over/first
 # 個数計測
-function ltp:game/main/over/measure
+execute as @a[team=b] run function ltp:game/main/over/measure
 

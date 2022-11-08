@@ -6,5 +6,4 @@ bossbar set ltp: name [{"selector":"@s","color": "red"},{"text":"が暴走中!!"
 execute if score has time >= first time run function ltp:fin 
 
 
-say add
 
