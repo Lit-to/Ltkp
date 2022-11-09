@@ -8,3 +8,5 @@ execute as @a[gamemode=!spectator] run scoreboard players operation down time +=
 execute store result bossbar ltp: max run scoreboard players get down time 
 bossbar set ltp: name [{"text": "暴走者なし"},{"text": "|"},{"text": "タイマー稼働中","color": "blue"}]
 
+function ltp:game/item/energy
+

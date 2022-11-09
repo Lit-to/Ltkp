@@ -13,7 +13,6 @@ scoreboard players set pre time 1200
 bossbar set ltp: max 1200
 bossbar set ltp: players @a
 function ltp:game/bar
-function ltp:game/item/energy
 #per timeは時間の最大を定義してる
 scoreboard players reset per time
 scoreboard players set @a takoyaki 0
