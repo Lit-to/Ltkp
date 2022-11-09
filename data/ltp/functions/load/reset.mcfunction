@@ -40,6 +40,7 @@ data modify storage ltp: time set value {note:"valueに1人当たりの時間int
 
 #gamerule 
 gamerule doImmediateRespawn true
+gamerule doLimitedCrafting true
 forceload add -9 -2 ~ ~
 
 execute as @e[type=armor_stand,tag=chest] at @s run data modify block ~ ~ ~ Items set value []

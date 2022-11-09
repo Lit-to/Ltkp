@@ -16,4 +16,4 @@ function ltp:game/bar
 #per timeは時間の最大を定義してる
 scoreboard players reset per time
 scoreboard players set @a takoyaki 0
-
+execute as @a run function ltp:start/prohibit
